@@ -1,0 +1,19 @@
+# Web interface
+streamlit>=1.40,<2
+
+# Data handling and numerical operations
+pandas>=2.2,<4
+numpy>=1.26,<3
+
+# Keyword-based information retrieval
+scikit-learn>=1.5,<2
+
+# Semantic retrieval
+sentence-transformers>=3.3,<6
+
+# YouTube metadata collection and environment configuration
+google-api-python-client>=2.150,<3
+python-dotenv>=1.0,<2
+
+# Text preprocessing
+nltk>=3.9,<4

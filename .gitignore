@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit local settings
+.streamlit/secrets.toml
+
+# Generated model files and local caches
+models/**
+!models/.gitkeep
+.cache/
+
+# Local datasets and generated outputs (keep the folder itself)
+dataset/**
+!dataset/.gitkeep
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
